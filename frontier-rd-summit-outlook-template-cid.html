@@ -4,39 +4,62 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light only">
   <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
   <title>Microsoft Frontier R&amp;D Summit</title>
   <!--[if mso]>
   <noscript><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
   <![endif]-->
   <style type="text/css">
-    html, body { margin:0 !important; padding:0 !important; width:100% !important; }
+    :root { color-scheme:light only; supported-color-schemes:light only; }
+    html, body { margin:0 !important; padding:0 !important; width:100% !important; min-width:100% !important; }
     body, table, td, th, p, a, li { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
     table, td, th { mso-table-lspace:0pt; mso-table-rspace:0pt; }
     table { border-collapse:collapse; }
     img { border:0; outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; }
-    .email-shell { width:100% !important; max-width:none !important; }
+    .email-shell { width:100% !important; max-width:none !important; min-width:0 !important; }
     .fluid-banner { display:block !important; width:100% !important; max-width:100% !important; height:auto !important; }
+    .registration-pair { width:100% !important; max-width:473px !important; }
+    .qr-image { width:100% !important; max-width:220px !important; height:auto !important; }
     a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !important; }
+
+    [data-ogsc] .glass-field,
+    [data-ogsb] .glass-field { background-color:#EAF1FA !important; background-image:linear-gradient(115deg,#EDF5FA 0%,#F1EDF6 48%,#EAF7F9 100%) !important; }
+    [data-ogsc] .glass-field p,
+    [data-ogsc] .glass-field h2,
+    [data-ogsc] .glass-field li { color:#24243D !important; }
+    [data-ogsc] .cta-square-cell { background-color:#5842A6 !important; }
+    [data-ogsc] .cta-link { color:#FFFFFF !important; }
+
+    @media (prefers-color-scheme:dark) {
+      .glass-field { background-color:#EAF1FA !important; background-image:linear-gradient(115deg,#EDF5FA 0%,#F1EDF6 48%,#EAF7F9 100%) !important; }
+      .glass-field p, .glass-field h2, .glass-field li { color:#24243D !important; -webkit-text-fill-color:#24243D !important; }
+      .cta-square-cell { background-color:#5842A6 !important; }
+      .cta-link { color:#FFFFFF !important; -webkit-text-fill-color:#FFFFFF !important; }
+    }
 
     @media screen and (max-width:700px) {
       .email-shell { width:100% !important; max-width:100% !important; }
       .inset { padding-left:32px !important; padding-right:32px !important; }
       .date { font-size:46px !important; line-height:52px !important; }
       .time { font-size:24px !important; line-height:32px !important; }
+      .body-copy, .body-list, .body-list li { font-size:15px !important; line-height:25px !important; }
     }
 
     @media screen and (max-width:520px) {
       .inset { padding-left:20px !important; padding-right:20px !important; }
       .intro { padding-top:32px !important; }
-      .body-copy, .body-list, .body-list li { font-size:15px !important; line-height:25px !important; }
-      .section-title { font-size:19px !important; line-height:27px !important; }
-      .date { font-size:38px !important; line-height:44px !important; }
-      .time { font-size:21px !important; line-height:29px !important; }
+      .greeting { font-size:18px !important; line-height:26px !important; margin-bottom:18px !important; }
+      .body-copy, .body-list, .body-list li { font-size:14px !important; line-height:23px !important; }
+      .section-title { font-size:18px !important; line-height:25px !important; }
+      .date { font-size:34px !important; line-height:40px !important; }
+      .time { font-size:19px !important; line-height:27px !important; }
       .registration { padding-top:40px !important; padding-bottom:32px !important; }
-      .registration-pair { width:320px !important; }
-      .qr-cell, .qr-image, .cta-cell, .cta-square, .cta-square-cell { width:150px !important; height:150px !important; }
-      .registration-divider { width:20px !important; }
+      .registration-pair { width:100% !important; max-width:320px !important; }
+      .qr-cell, .cta-cell, .cta-square, .cta-square-cell { width:150px !important; height:150px !important; }
+      .qr-image { width:150px !important; max-width:100% !important; height:auto !important; }
+      .registration-divider { width:20px !important; max-width:20px !important; }
       .divider-line, .divider-line-cell { height:72px !important; }
       .cta-link { padding:0 10px !important; font-size:13px !important; line-height:18px !important; }
     }
@@ -45,9 +68,11 @@
       .inset { padding-left:16px !important; padding-right:16px !important; }
       .date { font-size:33px !important; line-height:39px !important; }
       .time { font-size:19px !important; line-height:27px !important; }
-      .registration-pair { width:264px !important; }
-      .qr-cell, .qr-image, .cta-cell, .cta-square, .cta-square-cell { width:120px !important; height:120px !important; }
-      .registration-divider { width:24px !important; }
+      .body-copy, .body-list, .body-list li { font-size:13px !important; line-height:21px !important; }
+      .registration-pair { width:100% !important; max-width:264px !important; }
+      .qr-cell, .cta-cell, .cta-square, .cta-square-cell { width:120px !important; height:120px !important; }
+      .qr-image { width:120px !important; max-width:100% !important; height:auto !important; }
+      .registration-divider { width:24px !important; max-width:24px !important; }
       .divider-line, .divider-line-cell { height:60px !important; }
       .cta-link { padding:0 8px !important; font-size:11px !important; line-height:16px !important; }
     }
@@ -57,14 +82,14 @@
   <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#EAF1FA" style="width:100%; background-color:#EAF1FA; border-collapse:collapse;">
     <tr>
       <td align="center" valign="top" style="padding:0;">
-        <table class="email-shell" role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:100%; max-width:none; table-layout:fixed; border-collapse:collapse;">
+        <table class="email-shell" role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:100%; max-width:none; min-width:0; table-layout:auto; border-collapse:collapse;">
           <tr>
             <td valign="top" bgcolor="#33215C" style="padding:0; background-color:#33215C;">
-              <img class="fluid-banner" src="cid:svc-banner-37" width="100%" alt="Microsoft Frontier R&amp;D Summit — Silicon Valley Campus, November 16, 2026" style="display:block; width:100%; max-width:100%; height:auto; margin:0; padding:0; border:0; color:#FFFFFF; font-family:'Segoe UI',Arial,Helvetica,sans-serif; font-size:24px; line-height:32px; text-align:center;">
+              <img class="fluid-banner" src="cid:svc-banner-19" alt="Microsoft Frontier R&amp;D Summit — Silicon Valley Campus, November 16, 2026" style="display:block; width:100%; max-width:100%; height:auto; margin:0; padding:0; border:0; color:#FFFFFF; font-family:'Segoe UI',Arial,Helvetica,sans-serif; font-size:24px; line-height:32px; text-align:center;">
             </td>
           </tr>
           <tr>
-            <td class="glass-field" valign="top" bgcolor="#EAF1FA" background="cid:svc-background" style="padding:0; background-color:#EAF1FA; background-image:url('cid:svc-background'); background-repeat:no-repeat; background-position:center top; background-size:cover;">
+            <td class="glass-field" valign="top" bgcolor="#EAF1FA" style="padding:0; background-color:#EAF1FA !important; background-image:linear-gradient(115deg,#EDF5FA 0%,#F1EDF6 48%,#EAF7F9 100%);">
               <!--[if mso]>
               <v:rect fill="true" stroke="false" style="mso-width-percent:1000; mso-width-relative:margin;">
                 <v:fill type="frame" src="cid:svc-background" color="#EAF1FA"/>
@@ -74,7 +99,7 @@
                 <tr>
                   <td class="inset intro" valign="top" style="padding:48px 52px 0;">
                     <!-- POWER AUTOMATE / MANUAL PLACEHOLDER: [NAME] -->
-                    <p style="margin:0 0 24px; font-family:'Segoe UI',Arial,Helvetica,sans-serif; font-size:20px; line-height:30px; font-weight:600; color:#24243D; mso-line-height-rule:at-least;">Hi [NAME],</p>
+                    <p class="greeting" style="margin:0 0 24px; font-family:'Segoe UI',Arial,Helvetica,sans-serif; font-size:20px; line-height:30px; font-weight:600; color:#24243D; mso-line-height-rule:at-least;">Hi [NAME],</p>
                     <!-- POWER AUTOMATE / MANUAL PLACEHOLDER: [REFERRED BY] -->
                     <p class="body-copy" style="margin:0; font-family:'Segoe UI',Arial,Helvetica,sans-serif; font-size:16px; line-height:28px; font-weight:400; color:#24243D; mso-line-height-rule:at-least;">We are excited to invite you to the Microsoft Frontier R&amp;D Summit, a focused, in-person gathering on November 16 at the Microsoft Silicon Valley Campus in Mountain View, CA. You were nominated by [REFERRED BY] for this exclusive event where we bring together customers, partners, and industry experts at Microsoft for a deep exploration into the future of R&amp;D.</p>
                   </td>
@@ -118,7 +143,7 @@
                 <tr>
                   <td class="inset registration" valign="top" style="padding:48px 52px 44px;">
                     <p class="body-copy" style="margin:0 0 24px; font-family:'Segoe UI',Arial,Helvetica,sans-serif; font-size:16px; line-height:28px; font-weight:400; color:#24243D; mso-line-height-rule:at-least;">Please confirm your attendance by registering below. Places are limited and will be allocated on a first-come, first-served basis.</p>
-                    <table class="registration-pair" role="presentation" width="473" border="0" cellspacing="0" cellpadding="0" align="center" style="width:473px; max-width:100%; border-collapse:collapse;">
+                    <table class="registration-pair" role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:100%; max-width:473px; border-collapse:collapse;">
                       <tr>
                         <td class="qr-cell" width="220" height="219" valign="bottom" align="left" style="width:220px; height:219px; padding:0; vertical-align:bottom;">
                           <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRwI9HSqlxelBrc69JiPMw61UMUFCMUc4WjlXS0wwUjYzU0pHMU1KNElFOS4u&amp;origin=QRCode" target="_blank" style="color:#5842A6; text-decoration:underline;">
