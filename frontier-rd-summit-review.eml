@@ -1,22 +1,22 @@
-Subject: Microsoft Frontier R&D Summit =?utf-8?b?4oCU?= Invitation Template
- Review
+Subject: Microsoft Frontier R&D Summit =?utf-8?b?4oCU?= Responsive Invitation
+ Template Review
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============6166339887327639412=="
+ boundary="===============6868584460418545781=="
 
---===============6166339887327639412==
+--===============6868584460418545781==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
-Microsoft Frontier R&D Summit invitation template. Open this item in Outlook =
-to review the HTML invitation and its inline images.
+Responsive Microsoft Frontier R&D Summit invitation review item. Open in Outl=
+ook to review the HTML invitation and inline images.
 
---===============6166339887327639412==
+--===============6868584460418545781==
 MIME-Version: 1.0
 Content-Type: multipart/related;
- boundary="===============1180487936328895160=="
+ boundary="===============8516971591622624023=="
 
---===============1180487936328895160==
+--===============8516971591622624023==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -43,6 +43,9 @@ ize-adjust:100%; }
     table { border-collapse:collapse; }
     img { border:0; outline:none; text-decoration:none; -ms-interpolation-mod=
 e:bicubic; }
+    .email-shell { width:100% !important; max-width:none !important; }
+    .fluid-banner { display:block !important; width:100% !important; max-widt=
+h:100% !important; height:auto !important; }
     a[x-apple-data-detectors] { color:inherit !important; text-decoration:non=
 e !important; }
 
@@ -96,15 +99,16 @@ EAF1FA; border-collapse:collapse;">
       <td align=3D"center" valign=3D"top" style=3D"padding:0;">
         <table class=3D"email-shell" role=3D"presentation" width=3D"100%" bor=
 der=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width=
-:100%; max-width:1200px; border-collapse:collapse;">
+:100%; max-width:none; table-layout:fixed; border-collapse:collapse;">
           <tr>
             <td valign=3D"top" bgcolor=3D"#33215C" style=3D"padding:0; backgr=
 ound-color:#33215C;">
-              <img src=3D"cid:svc-banner-37" width=3D"100%" alt=3D"Microsoft =
-Frontier R&amp;D Summit =E2=80=94 Silicon Valley Campus, November 16, 2026" s=
-tyle=3D"display:block; width:100%; height:auto; margin:0; padding:0; border:0=
-; color:#FFFFFF; font-family:'Segoe UI',Arial,Helvetica,sans-serif; font-size=
-:24px; line-height:32px; text-align:center;">
+              <img class=3D"fluid-banner" src=3D"cid:svc-banner-37" width=3D"=
+100%" alt=3D"Microsoft Frontier R&amp;D Summit =E2=80=94 Silicon Valley Campu=
+s, November 16, 2026" style=3D"display:block; width:100%; max-width:100%; hei=
+ght:auto; margin:0; padding:0; border:0; color:#FFFFFF; font-family:'Segoe UI=
+',Arial,Helvetica,sans-serif; font-size:24px; line-height:32px; text-align:ce=
+nter;">
             </td>
           </tr>
           <tr>
@@ -297,7 +301,7 @@ D Summit | Silicon Valley Campus =E2=80=93 Fill out form</a>
 </body>
 </html>
 
---===============1180487936328895160==
+--===============8516971591622624023==
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="37-svc.gif"
@@ -129695,7 +129699,7 @@ YIA59iscAUpFfAheinCEJBbhGEdQLBfNsBjGThAyWYbsEvWDDCgiUrIFHkRo/3oS2WC2EB24W69u
 tXFIdJzAB34kx33tq7JJkkAHEm1LxZ4gzb4UFDNFDSkJ8WBTct2U/45CTiWkbNe+8iewoEWdbVtU
 W+iSHkLVheQ5XMM+6unmvsHZA4pZjBHtnBBpvA+iCpfhAW5H0wCcK3o4AQEAOw==
 
---===============1180487936328895160==
+--===============8516971591622624023==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="glass-background.png"
@@ -155009,7 +155013,7 @@ hAFjkLB5JoGNsEHCIDDIBhmDhG3AYIwlAIMMBmEQANhIgDHmgcyzGQADBgEGbB7AIK4wgAHA5plk
 kAEQxiAZjDESlxkDGAPiuRmMQQA2AiNeKHOFAcAgAANYYF4QA+YygW3AgIHJ/kdYYQDMSFvJ5QAA
 AABJRU5ErkJggg==
 
---===============1180487936328895160==
+--===============8516971591622624023==
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Disposition: inline; filename="frontier-rd-summit-qr.png"
@@ -156061,6 +156065,6 @@ IYV4IToeBnxvPXiD3nzrh/TGG6/TDz+0D+1Dozfe/G96660f0oMHb9KPf/wjevjwJ/To0SN65513
 WNkAG6pHdCYNNrxw8gLqSsidKR3KS+z7Anh4+PHjx6x6WK97+PDhh/ahfWgPHzIPMEAGRcOUDKoG
 0UJfBMpmsIExwPaLX/yC/g/1oSCXczPtMAAAAABJRU5ErkJggg==
 
---===============1180487936328895160==--
+--===============8516971591622624023==--
 
---===============6166339887327639412==--
+--===============6868584460418545781==--
